@@ -1,0 +1,23 @@
+<pre class='rust'>
+<span class='kw'>fn</span> main() {
+<span class='comment'>// Egy egyszerű számológép egész számokhoz:
+// `+` vagy `-` jelentése: 1 hozzáadása vagy kivonása
+// `*` vagy `/` jelentése: szorzás vagy osztás 2-vel</span>
+
+<span class='kw'>let</span> program = <span class='string'>"+ + * - /"</span>;
+<span class='kw'>let</span> <span class='kw'>mut</span> accumulator = <span class='number'>0</span>;
+
+<span class='kw'>for</span> token in program.chars() {
+<span class='kw'>match</span> token {
+    <span class='string'>'+'</span> => accumulator <span class='op'>+=</span> <span class='number'>1</span>,
+    <span class='string'>'-'</span> => accumulator <span class='op'>-=</span> <span class='number'>1</span>,
+    <span class='string'>'*'</span> => accumulator <span class='op'>*=</span> <span class='number'>2</span>,
+    <span class='string'>'/'</span> => accumulator <span class='op'>/=</span> <span class='number'>2</span>,
+    _ => { <span class='comment'>/* minden más figyelmen kívül hagyása */</span> }
+}
+}
+
+<span class='prelude-val'>println!</span>(<span class='string'>"A(z) \"{}\" program a(z) {} értéket számolja ki."</span>,
+   program, accumulator);
+}
+</pre>
