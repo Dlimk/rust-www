@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: hu-HU/default
 title: Rust felhasználói csoportok &middot; A Rust programozási nyelv
 ---
 
@@ -28,7 +28,7 @@ nyiss egy beolvasztási kérést
 
 ## Belgium
 
-[Belgium Rust User Group](http://www.rust-lang.be/)
+[Belgium Rust User Group](http://www.rust-lang.be/), Brüsszel.
 
 ## Bolívia
 
@@ -162,7 +162,7 @@ nyiss egy beolvasztási kérést
 
 ## Tajvan
 
-[RUST.TW](https://www.meetup.com/RUST-TW/), Tajpej
+[RUST.TW](https://www.meetup.com/RUST-TW/), Tajpej.
 
 ## Egyesült Királyság
 
@@ -218,7 +218,7 @@ nyiss egy beolvasztási kérést
 
 ### New York
 
-[Rust NYC](https://www.meetup.com/Rust-NYC/), New York, NY
+[Rust NYC](https://www.meetup.com/Rust-NYC/), New York, NY.
 
 ### Ohio
 

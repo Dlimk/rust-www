@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: hu-HU/default
 title: Rust biztonsági házirend &middot; A Rust programozási nyelv
 ---
 
@@ -55,41 +55,41 @@ Ez a személy fogja koordinálni a javítási és kiadási folyamatot.</li>
 
 <li>A kód auditálásra kerül lehetséges hasonló problémák után.</li>
 
-<li>Fixes are prepared for all releases which are still under maintenance.
-These fixes are not committed to the public repository but rather held locally
-pending the announcement.</li>
+<li>A javításokat előkészítik minden kiadáshoz, amely még karbantartás alatt van.
+Ezek a javítások nem kerülnek bele a nyilvános tárolóba, hanem helyben tartottak
+addig, amíg bejelentésre nem kerül.</li>
 
-<li>On the embargo date, the <a href="https://groups.google.com/forum/#!forum/rustlang-security-announcements">
-Rust security mailing list</a> is sent a copy of the announcement. The changes
-are pushed to the public repository and new builds are deployed to
-rust-lang.org.  Within 6 hours of the mailing list being notified, a copy of
-the advisory will be published on the Rust blog.</li> </ol>
+<li>Az embargó dátumán, a <a href="https://groups.google.com/forum/#!forum/rustlang-security-announcements">
+Rust biztonsági levelezési listára</n> kerül a bejelentés másolata. A változtatások
+bekerülnek a nyilvános tárolóba, és az új összeállítások kikerülnek a rust-lang.org
+oldalra. A levelezési listára kiküldéshez képest 6 órán belül a Rust blogra
+is kikerül a figyelmeztetés másolata.</li> </ol>
 
-<p>This process can take some time, especially when coordination is required
-with maintainers of other projects. Every effort will be made to handle the bug
-in as timely a manner as possible, however it's important that we follow the
-release process above to ensure that the disclosure is handled in a consistent
-manner.</p>
+<p>A folyamat eltarthat egy ideig, különösen ha más projektek karbantartóival is
+egyeztetni kell. Minden erőfeszítést megteszünk, hogy időben kezeljük a hibát, de
+fontos hogy a fenti kiadási folyamatot kövessük, hogy biztosítsuk a nyilvánosságra
+hozás következetességét.</p>
 
-<h2>Receiving Security Updates</h2>
+<h2>Biztonsági hírek fogadása</h2>
 
-<p>The best way to receive all the security announcements is to subscribe to
-the <a
-href="https://groups.google.com/forum/#!forum/rustlang-security-announcements">Rust
-security announcements mailing list</a>. The mailing list is very low traffic,
-and it receives the public notifications the moment the embargo is lifted.</p>
+<p>Az összes biztonsági bejelentés megkapásának legjobb módja a feliratkozás a
+<a href="https://groups.google.com/forum/#!forum/rustlang-security-announcements">
+Rust biztonsági bejelentések levelezési listára</a>. A levelezési lista nagyon
+kis forgalmú, és azonnal megkapja a nyilvános értesítéseket, amint az embargó
+feloldásra kerül.</p>
 
-<h3>Advance notification</h3>
+<h3>Korai értesítés</h3>
 
-<p>We will announce vulnerabilities 72 hours before the embargo is lifted to
-<a href="http://oss-security.openwall.org/wiki/mailing-lists/distros">distros@openwall</a>,
-so that Linux distributions can update their packages.</p>
+<p>A sebezhetőségeket 72 órával azelőtt bejelentjük a
+<a href="http://oss-security.openwall.org/wiki/mailing-lists/distros">distros@openwall</a>
+levelezési listán, hogy az embargó feloldásra kerülne, így a Linux disztribúciók
+frissíthetik a csomagjaikat.</p>
 
-<h2>Comments on This Policy</h2>
+<h2>Megjegyzések a házirendhez</h2>
 
-<p>If you have any suggestions to improve this policy, please send an email to
-<a href="mailto:security@rust-lang.org">security@rust-lang.org</a>.</p>
+<p>Ha javaslatai vannak a házirend javításához, akkor küldjön egy e-mailt a 
+<a href="mailto:security@rust-lang.org">security@rust-lang.org</a> címre.</p>
 
-<h2 id="key">Plaintext PGP Key</h2>
+<h2 id="key">Egyszerű szöveges PGP kulcs</h2>
 
 <pre><code>{% include rust-security-team-key.gpg.ascii %}</code></pre>

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: hu-HU/default
 title: A Rust csapat &middot; A Rust programozási nyelv
 ---
 
